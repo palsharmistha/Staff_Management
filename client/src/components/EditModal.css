@@ -1,0 +1,46 @@
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.EditModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+
+.EditModal h2 {
+  margin-top: 0;
+}
+
+.EditModal form {
+  display: flex;
+  flex-direction: column;
+}
+
+.EditModal input {
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.EditModal button {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
